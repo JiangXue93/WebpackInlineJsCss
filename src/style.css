@@ -1,0 +1,7 @@
+.hello {
+  color: green;
+  border-radius: 1px;
+  user-select: none;
+  /* background: url('./xiamu.jpg'); */
+  min-height: 500px;
+}

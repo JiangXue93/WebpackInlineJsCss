@@ -1,0 +1,5 @@
+# 三方库
+/node_modules/
+
+# dist
+/dist/      
