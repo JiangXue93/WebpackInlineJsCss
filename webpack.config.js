@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
 
 module.exports = {
-  mode: 'development',
+  mode: 'development', // 为了便于查看编译后的代码，采用development，实际生产环境建议改为production（自带压缩与混淆）
   entry: {
     app: './src/index.js'
   },
@@ -12,6 +12,7 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
+  // webpack-dev-server配置信息
   devServer: {
     contentBase: './dist',
     open: true,
