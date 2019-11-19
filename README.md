@@ -15,8 +15,10 @@
 4. 发布 将index.html文件直接粘贴到qcms即可。
 
 # dist目录说明
+```
 dist-.
      |- app.bundle.js      index.js的打包文件
      |- index.html         动态生成的index.html文件
      |- runtime.bundle.js  webpack的框架环境
      '- venders.bundle.js  三方依赖
+```
